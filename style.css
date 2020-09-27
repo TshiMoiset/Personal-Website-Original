@@ -72,8 +72,8 @@ h2 {
   border: solid 3px;
   border-radius: 100px;
   margin: 5px;
-  margin-left: 100px;
-  margin-right: 120px;
+  margin-left: 104px;
+  margin-right: 135px;
 }
 
 .container a:hover {
@@ -150,6 +150,49 @@ h2 {
 /*Moïse.html*/
 
 .moiseimg {
+  background-image: url(/HTML.BILDER/Bild.4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.moiseimg img {
+  filter: brightness(50%);
+}
+
+.moise-inner {
+  background-color: black;
+  overflow: hidden;
+}
+
+.moise-inner a {
+  float: left;
+  color: orange;
+  text-align: center;
+  text-transform: none;
+  padding: 15px 16px;
+  font-size: 15px;
+  text-decoration: none;
+
+  top: 0%;
+
+  border: solid 3px;
+  border-radius: 100px;
+  margin: 5px;
+  margin-left: 100px;
+  margin-right: 137px;
+}
+
+.moise-inner a:hover {
+  background-color: orange;
+  color: black;
+}
+
+/* Hobbies.html*/
+
+.hobbiesimg {
   background-image: url(/HTML.BILDER/Bild.3.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -157,22 +200,68 @@ h2 {
   height: 100vh;
 }
 
-/* Hobbies.html*/
+.hobbies-inner {
+  background-color: black;
+  overflow: hidden;
+}
 
-.hobbiesimg {
-  background-image: url(/HTML.BILDER/Bild.4.jpg);
+.hobbies-inner a {
+  float: left;
+  color: orange;
+  text-align: center;
+  text-transform: none;
+  padding: 15px 16px;
+  font-size: 15px;
+  text-decoration: none;
+
+  top: 0%;
+
+  border: solid 3px;
+  border-radius: 100px;
+  margin: 5px;
+  margin-left: 100px;
+  margin-right: 137px;
+}
+
+.hobbies-inner a:hover {
+  background-color: orange;
+  color: black;
+}
+
+/*Contact.html*/
+
+.contactimg {
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=93a4a85942&attid=0.1&permmsgid=msg-f:1679018928173668317&th=174d12d1c0f2d7dd&view=att&disp=safe);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
 
-/*Contact.html*/
+.contact-inner {
+  background-color: black;
+  overflow: hidden;
+}
 
-.contactimg {
-  background-image: url(/HTML.BILDER/Bild.5.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+.contact-inner a {
+  float: left;
+  color: orange;
+  text-align: center;
+  text-transform: none;
+  padding: 15px 16px;
+  font-size: 15px;
+  text-decoration: none;
+
+  top: 0%;
+
+  border: solid 3px;
+  border-radius: 100px;
+  margin: 5px;
+  margin-left: 100px;
+  margin-right: 137px;
+}
+
+.contact-inner a:hover {
+  background-color: orange;
+  color: black;
 }
