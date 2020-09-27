@@ -55,6 +55,7 @@ h2 {
 .container{
   background-color: black;
   overflow: hidden;
+  position: fixed;
   
 }
 
@@ -67,11 +68,16 @@ padding: 15px 16px;
 font-size: 15px;
 text-decoration: none;
 
+top: 0%;
+
+
+
 border: solid 3px;
 border-radius: 100px;
 margin: 5px;
 margin-left: 100px;
 margin-right: 120px;
+
 }
 
 .container a:hover{
@@ -86,12 +92,6 @@ margin-right: 120px;
   width: 100%;
 
 }
-
-
-
-
-
-
 
 
 
