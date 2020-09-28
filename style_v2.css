@@ -1,0 +1,22 @@
+body {
+  background-image: url("HTML.BILDER/Bild.4.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: orange;
+  border: 2px solid orange;
+  padding: 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}

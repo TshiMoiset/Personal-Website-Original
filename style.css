@@ -42,7 +42,46 @@ h2 {
   color: orange;
 }
 
-/* Homepage 2 */
+
+
+body {
+  background-image: url("HTML.BILDER/Bild.2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+nav a {
+  color: orange;
+  border: 2px solid orange;
+  padding: 16px;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+nav a:hover{
+  color: black; 
+  background-color: orange;
+}
+
+
+
+
+
+
+
+
+/* Homepage 2 
 
 .navigationhero {
   background-image: url(/HTML.BILDER/Bild.2.jpg);
@@ -147,7 +186,7 @@ h2 {
 }
 
 
-/*Moïse.html*/
+/*Moïse.html
 
 .moiseimg {
   background-image: url(/HTML.BILDER/Bild.4.jpg);
@@ -190,7 +229,7 @@ h2 {
   color: black;
 }
 
-/* Hobbies.html*/
+/* Hobbies.html
 
 .hobbiesimg {
   background-image: url(/HTML.BILDER/Bild.3.jpg);
@@ -228,10 +267,10 @@ h2 {
   color: black;
 }
 
-/*Contact.html*/
+/*Contact.html
 
 .contactimg {
-  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=93a4a85942&attid=0.1&permmsgid=msg-f:1679018928173668317&th=174d12d1c0f2d7dd&view=att&disp=safe);
+  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=93a4a85942&attid=0.1&permmsgid=msg-f:1679059585493178578&th=174d37cc060918d2&view=att&disp=safe);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
