@@ -34,15 +34,9 @@ body {
   color: black;
 }
 
-h1 {
+.hero-inner {
   color: orange;
 }
-
-h2 {
-  color: orange;
-}
-
-
 
 body {
   background-image: url("HTML.BILDER/Bild.2.jpg");
@@ -76,17 +70,78 @@ nav a:hover{
 background-color: darkorange;
 }
 
-.container{
+
+
+/* Texten i hompage2.html*/
+
+.homepagetext{
 width: 45vw;
 margin: auto;
 color: orange;
-padding-top: 30vh;
+padding-top: 15vh;
+}
+
+h4 {
+  text-align: center
+}
+
+/* Innehållet i Moïse.html*/
+
+.moisecontent{
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+  margin-left: 4em;
+}
+
+h1 {
+
+text-align: center;
+}
+
+.gangsta-img {
+width: 20em;
+
+
+  /*
+width: 20em;
+float: right;
+margin: auto;
+padding-top: 15vh;
+margin: 15vw;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
-
-
-
 
 
 
