@@ -96,12 +96,17 @@ h4 {
 }
 
 h1 {
-
 text-align: center;
 }
 
-.gangsta-img {
-width: 20em;
+.g-image {
+float: right;
+margin-right: 8em;
+margin-bottom: 20em;
+
+border-radius: 10px;
+border: 3px solid orange;
+
 
 
   /*
