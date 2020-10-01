@@ -4,13 +4,10 @@
 }
 
 body {
-  background-image: url(/bilder/Bild.4.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-
   background-attachment: fixed;
-  font-size: 14px;
 }
 
 .container {
