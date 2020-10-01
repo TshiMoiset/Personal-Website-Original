@@ -39,7 +39,6 @@ body {
 }
 
 body {
-  background-image: url("HTML.BILDER/Bild.2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-size: 100% 100%;
@@ -117,40 +116,18 @@ padding-top: 15vh;
 margin: 15vw;
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
+/* Contact.html*/
 
+body { 
+margin: 0;
+padding: 0;
+}
 
-
+title {
+  margin-top: 100px;
+}
 
 
 
