@@ -89,6 +89,11 @@ button {
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
 }
 
+button :hover {
+  color: black;
+  background-color: orange;
+}
+
 .contact-left h3 {
   color: black;
   font-weight: 600;
@@ -117,7 +122,7 @@ tr td {
 }
 
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .fa-instagram {
