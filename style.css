@@ -46,13 +46,10 @@ body {
   background-color: black;
 }
 
-
-
 nav {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  
 }
 
 nav a {
@@ -64,29 +61,27 @@ nav a {
   margin-top: 5px;
 }
 
-nav a:hover{
-  color: black; 
-background-color: darkorange;
+nav a:hover {
+  color: black;
+  background-color: darkorange;
 }
-
-
 
 /* Texten i hompage2.html*/
 
-.homepagetext{
-width: 45vw;
-margin: auto;
-color: orange;
-padding-top: 15vh;
+.homepagetext {
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
 }
 
 h4 {
-  text-align: center
+  text-align: center;
 }
 
 /* Innehållet i Moïse.html*/
 
-.moisecontent{
+.moisecontent {
   width: 45vw;
   margin: auto;
   color: orange;
@@ -95,268 +90,14 @@ h4 {
 }
 
 h1 {
-text-align: center;
+  text-align: center;
 }
 
 .g-image {
-float: right;
-margin-right: 8em;
-margin-bottom: 20em;
+  float: right;
+  margin-right: 8em;
+  margin-bottom: 20em;
 
-border-radius: 10px;
-border: 3px solid orange;
-
-
-
-  /*
-width: 20em;
-float: right;
-margin: auto;
-padding-top: 15vh;
-margin: 15vw;
-*/
-
-}
-
-/* Contact.html*/
-
-body { 
-margin: 0;
-padding: 0;
-}
-
-title {
-  margin-top: 100px;
-}
-
-
-
-
-
-
-
-
-
-/* Homepage 2 
-
-.navigationhero {
-  background-image: url(/HTML.BILDER/Bild.2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.container {
-  background-color: black;
-  overflow: hidden;
-  position: fixed;
-}
-
-.container a {
-  float: left;
-  color: orange;
-  text-align: center;
-  text-transform: none;
-  padding: 15px 16px;
-  font-size: 15px;
-  text-decoration: none;
-
-  top: 0%;
-
-  border: solid 3px;
-  border-radius: 100px;
-  margin: 5px;
-  margin-left: 104px;
-  margin-right: 135px;
-}
-
-.container a:hover {
-  background-color: orange;
-  color: black;
-}
-
-/*
-.hb {
-  background-color: black;
-}
-
-.hb a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
-  border: solid 6px;
-  border-radius: 40px;
-}
-
-.mb {
-  background-color: black;
-}
-
-.mb a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
-  border: solid 6px;
-  border-radius: 40px;
-}
-
-.hbb {
-  background-color: green;
-}
-
-.hbb a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
-  border: solid 6px;
-  border-radius: 40px;
-}
-
-.cb {
-  background-color: black;
-}
-
-.cb a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
-  border: solid 5px;
-  border-radius: 40px;
-}
-
-
-/*Moïse.html
-
-.moiseimg {
-  background-image: url(/HTML.BILDER/Bild.4.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
-
-.moiseimg img {
-  filter: brightness(50%);
-}
-
-.moise-inner {
-  background-color: black;
-  overflow: hidden;
-}
-
-.moise-inner a {
-  float: left;
-  color: orange;
-  text-align: center;
-  text-transform: none;
-  padding: 15px 16px;
-  font-size: 15px;
-  text-decoration: none;
-
-  top: 0%;
-
-  border: solid 3px;
-  border-radius: 100px;
-  margin: 5px;
-  margin-left: 100px;
-  margin-right: 137px;
-}
-
-.moise-inner a:hover {
-  background-color: orange;
-  color: black;
-}
-
-/* Hobbies.html
-
-.hobbiesimg {
-  background-image: url(/HTML.BILDER/Bild.3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.hobbies-inner {
-  background-color: black;
-  overflow: hidden;
-}
-
-.hobbies-inner a {
-  float: left;
-  color: orange;
-  text-align: center;
-  text-transform: none;
-  padding: 15px 16px;
-  font-size: 15px;
-  text-decoration: none;
-
-  top: 0%;
-
-  border: solid 3px;
-  border-radius: 100px;
-  margin: 5px;
-  margin-left: 100px;
-  margin-right: 137px;
-}
-
-.hobbies-inner a:hover {
-  background-color: orange;
-  color: black;
-}
-
-/*Contact.html
-
-.contactimg {
-  background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=93a4a85942&attid=0.1&permmsgid=msg-f:1679059585493178578&th=174d37cc060918d2&view=att&disp=safe);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-
-.contact-inner {
-  background-color: black;
-  overflow: hidden;
-}
-
-.contact-inner a {
-  float: left;
-  color: orange;
-  text-align: center;
-  text-transform: none;
-  padding: 15px 16px;
-  font-size: 15px;
-  text-decoration: none;
-
-  top: 0%;
-
-  border: solid 3px;
-  border-radius: 100px;
-  margin: 5px;
-  margin-left: 100px;
-  margin-right: 137px;
-}
-
-.contact-inner a:hover {
-  background-color: orange;
-  color: black;
+  border-radius: 10px;
+  border: 3px solid orange;
 }
