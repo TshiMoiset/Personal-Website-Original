@@ -178,3 +178,7 @@ h1 {
   color: orange;
   text-decoration: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}
