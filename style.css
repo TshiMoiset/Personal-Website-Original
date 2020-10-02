@@ -86,11 +86,15 @@ h4 {
   margin: auto;
   color: orange;
   padding-top: 15vh;
-  margin-left: 4em;
+  margin-left: 10em;
+}
+p {
+  background-color: black;
 }
 
 h1 {
   text-align: center;
+  background-color: black;
 }
 
 .g-image {
@@ -103,4 +107,44 @@ h1 {
 
   left: 65%;
   top: 30%;
+}
+
+/* Innehållet i Hobbies.html*/
+
+.hobbies-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.hobbies-content a {
+  margin-top: 3em;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 5px;
+  padding: 4px;
+  margin-right: 2px;
+}
+
+.hobbies-content a:hover {
+  color: black;
+  background-color: orange;
+}
+
+.games {
+  color: orange;
+
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+  margin-left: 4em;
+}
+
+.series {
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+  margin-left: 4em;
 }
