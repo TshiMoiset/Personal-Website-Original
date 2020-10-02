@@ -118,10 +118,11 @@ h1 {
 }
 
 .hobbies-content a {
+  text-decoration: none;
   margin-top: 3em;
   color: orange;
   border: 2px solid orange;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 4px;
   margin-right: 2px;
 }
@@ -147,4 +148,33 @@ h1 {
   color: orange;
   padding-top: 15vh;
   margin-left: 4em;
+}
+
+.movies {
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+  margin-left: 4em;
+}
+
+.music {
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+  margin-left: 4em;
+}
+
+.hobbies-end {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid orange;
+}
+
+.hobbies-end a {
+  color: orange;
+  text-decoration: none;
 }
