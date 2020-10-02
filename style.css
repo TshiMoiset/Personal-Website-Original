@@ -82,11 +82,12 @@ h4 {
 /* Innehållet i Moïse.html*/
 
 .moisecontent {
+  color: orange;
+
   width: 45vw;
   margin: auto;
   color: orange;
   padding-top: 15vh;
-  margin-left: 10em;
 }
 p {
   background-color: black;
@@ -98,15 +99,7 @@ h1 {
 }
 
 .g-image {
-  float: right;
-  margin-right: 8em;
-
-  border-radius: 10px;
-  border: 3px solid orange;
-  position: absolute;
-
-  left: 65%;
-  top: 30%;
+  text-align: center;
 }
 
 /* Innehållet i Hobbies.html*/
@@ -139,31 +132,33 @@ h1 {
   margin: auto;
   color: orange;
   padding-top: 15vh;
-  margin-left: 4em;
 }
 
 .series {
+  color: orange;
+
   width: 45vw;
   margin: auto;
   color: orange;
   padding-top: 15vh;
-  margin-left: 4em;
 }
 
 .movies {
+  color: orange;
+
   width: 45vw;
   margin: auto;
   color: orange;
   padding-top: 15vh;
-  margin-left: 4em;
 }
 
 .music {
+  color: orange;
+
   width: 45vw;
   margin: auto;
   color: orange;
   padding-top: 15vh;
-  margin-left: 4em;
 }
 
 .hobbies-end {
@@ -177,6 +172,10 @@ h1 {
 .hobbies-end a {
   color: orange;
   text-decoration: none;
+}
+
+.game-image {
+  text-align: center;
 }
 
 html {
